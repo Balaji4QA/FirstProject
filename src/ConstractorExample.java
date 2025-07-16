@@ -15,7 +15,7 @@ for(int i=1;i<=1000;i++) {
 	while(num1!=0) {
 		temp=num1%10;
 		sum=sum+(temp*temp*temp);
-		num1=num1/10;
+		num1=num1/100;
 	}
 	if(i==sum) {
 		System.out.println(sum);
